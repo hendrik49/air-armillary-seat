@@ -56,8 +56,20 @@ This application is made using [Sinatra Active Record Starter Kit](https://githu
 
 ### Using Docker
 
-1. Create and Start Docker on port 4567
+1. Create and Start with Docker and listen on port 4567
 
     ```sh
     docker-compose up
+    ```
+
+2. Start with Docker and listen on port 4567
+
+    ```sh
+    docker-compose start
+    ```
+
+3. Stop with Docker
+
+    ```sh
+    docker-compose stop
     ```
