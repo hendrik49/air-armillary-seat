@@ -1,0 +1,75 @@
+[
+    [
+        [
+            {
+                "type": "window",
+                "number": 7
+            }
+        ]
+    ],
+    [
+        [
+            {
+                "type": "aisle",
+                "number": 1
+            },
+            {
+                "type": "middle",
+                "number": 10
+            },
+            {
+                "type": "middle"
+            },
+            {
+                "type": "aisle",
+                "number": 2
+            }
+        ],
+        [
+            {
+                "type": "aisle",
+                "number": 3
+            },
+            {
+                "type": "middle"
+            },
+            {
+                "type": "middle"
+            },
+            {
+                "type": "aisle",
+                "number": 4
+            }
+        ],
+        [
+            {
+                "type": "aisle",
+                "number": 5
+            },
+            {
+                "type": "middle"
+            },
+            {
+                "type": "middle"
+            },
+            {
+                "type": "aisle",
+                "number": 6
+            }
+        ]
+    ],
+    [
+        [
+            {
+                "type": "window",
+                "number": 8
+            }
+        ],
+        [
+            {
+                "type": "window",
+                "number": 9
+            }
+        ]
+    ]
+]

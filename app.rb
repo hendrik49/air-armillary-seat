@@ -1,6 +1,7 @@
 require 'sinatra'
 require 'sinatra/reloader'
 require 'sinatra/flash'
+require 'active_support/core_ext/hash'
 
 enable :sessions
 
@@ -22,5 +23,5 @@ end
 post '/seats' do
   content_type :json
   payload = JSON.parse(request.body.read)
-  SeatService.get(payload['layout'], payload['total_passengers'])
+  SeatService.get(payload['layout'], payload['total_passengers']).to_json
 end

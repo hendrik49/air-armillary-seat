@@ -1,12 +1,12 @@
 module SeatService
   class Get
 
-    SEAT_TYPE = [:middle, :aisle, :window]
+    SEAT_TYPE = %w(middle aisle window)
 
     def initialize(layout, total_passengers)
       @layout = layout
       @total_passengers = total_passengers
-      @total_seat_type = {}
+      @total_seat_type = {}.with_indifferent_access
       SEAT_TYPE.each { |seat_type| @total_seat_type[seat_type] = 0 }
     end
 
@@ -16,7 +16,7 @@ module SeatService
       create_result_layout
       set_type_of_the_seats
       set_number_of_the_seats
-      @result.to_json
+      @result
     end
 
     private
@@ -26,7 +26,11 @@ module SeatService
     end
 
     def valid_layout?
-      @layout.kind_of?(Array) && @layout.all? { |block| block.kind_of?(Array) && block.all? { |v| valid_size?(v) }}
+      @layout.kind_of?(Array) && @layout.all? { |block| valid_block?(block) }
+    end
+
+    def valid_block?(block)
+      block.kind_of?(Array) && block.length == 2 && block.all? { |v| valid_size?(v) }
     end
 
     def valid_size?(value)
@@ -38,7 +42,7 @@ module SeatService
     end
 
     def create_result_layout
-      @result = @layout.map { |block| Array.new(block[0]){ Array.new(block[1]){ Hash.new }}}
+      @result = @layout.map { |block| Array.new(block[0]){ Array.new(block[1]){ Hash.new.with_indifferent_access }}}
     end
 
     def set_type_of_the_seats
@@ -110,7 +114,7 @@ module SeatService
         aisle: 1,
         window: 1 + @total_seat_type[:aisle],
         middle: 1 + @total_seat_type[:aisle] + @total_seat_type[:window],
-      }
+      }.with_indifferent_access
     end
   end
 end

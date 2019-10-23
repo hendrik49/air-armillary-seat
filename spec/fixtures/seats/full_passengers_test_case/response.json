@@ -1,0 +1,106 @@
+[
+    [
+        [
+            {
+                "type": "window",
+                "number": 9
+            }
+        ],
+        [
+            {
+                "type": "window",
+                "number": 11
+            }
+        ],
+        [
+            {
+                "type": "window",
+                "number": 13
+            }
+        ],
+        [
+            {
+                "type": "window",
+                "number": 14
+            }
+        ]
+    ],
+    [
+        [
+            {
+                "type": "aisle",
+                "number": 1
+            },
+            {
+                "type": "middle",
+                "number": 15
+            },
+            {
+                "type": "middle",
+                "number": 16
+            },
+            {
+                "type": "aisle",
+                "number": 2
+            }
+        ],
+        [
+            {
+                "type": "aisle",
+                "number": 4
+            },
+            {
+                "type": "middle",
+                "number": 17
+            },
+            {
+                "type": "middle",
+                "number": 18
+            },
+            {
+                "type": "aisle",
+                "number": 5
+            }
+        ],
+        [
+            {
+                "type": "aisle",
+                "number": 7
+            },
+            {
+                "type": "middle",
+                "number": 19
+            },
+            {
+                "type": "middle",
+                "number": 20
+            },
+            {
+                "type": "aisle",
+                "number": 8
+            }
+        ]
+    ],
+    [
+        [
+            {
+                "type": "aisle",
+                "number": 3
+            },
+            {
+                "type": "window",
+                "number": 10
+            }
+        ],
+        [
+            {
+                "type": "aisle",
+                "number": 6
+            },
+            {
+                "type": "window",
+                "number": 12
+            }
+        ]
+    ]
+]

@@ -1,0 +1,57 @@
+[
+    [
+        [
+            {
+                "type": "window"
+            },
+            {
+                "type": "middle"
+            },
+            {
+                "type": "middle"
+            },
+            {
+                "type": "aisle"
+            }
+        ],
+        [
+            {
+                "type": "window"
+            },
+            {
+                "type": "middle"
+            },
+            {
+                "type": "middle"
+            },
+            {
+                "type": "aisle"
+            }
+        ]
+    ],
+    [
+        [
+            {
+                "type": "aisle"
+            }
+        ]
+    ],
+    [
+        [
+            {
+                "type": "aisle"
+            },
+            {
+                "type": "window"
+            }
+        ],
+        [
+            {
+                "type": "aisle"
+            },
+            {
+                "type": "window"
+            }
+        ]
+    ]
+]

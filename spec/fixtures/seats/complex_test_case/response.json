@@ -1,0 +1,242 @@
+[
+    [
+        [
+            {
+                "type": "window",
+                "number": 31
+            },
+            {
+                "type": "middle",
+                "number": 35
+            },
+            {
+                "type": "middle",
+                "number": 36
+            },
+            {
+                "type": "aisle",
+                "number": 1
+            }
+        ],
+        [
+            {
+                "type": "window",
+                "number": 33
+            },
+            {
+                "type": "middle",
+                "number": 38
+            },
+            {
+                "type": "middle",
+                "number": 39
+            },
+            {
+                "type": "aisle",
+                "number": 9
+            }
+        ]
+    ],
+    [
+        [
+            {
+                "type": "aisle",
+                "number": 2
+            }
+        ]
+    ],
+    [
+        [
+            {
+                "type": "aisle",
+                "number": 3
+            },
+            {
+                "type": "aisle",
+                "number": 4
+            }
+        ],
+        [
+            {
+                "type": "aisle",
+                "number": 10
+            },
+            {
+                "type": "aisle",
+                "number": 11
+            }
+        ]
+    ],
+    [
+        [
+            {
+                "type": "aisle",
+                "number": 5
+            }
+        ]
+    ],
+    [
+        [
+            {
+                "type": "aisle",
+                "number": 6
+            },
+            {
+                "type": "middle",
+                "number": 37
+            },
+            {
+                "type": "aisle",
+                "number": 7
+            }
+        ],
+        [
+            {
+                "type": "aisle",
+                "number": 12
+            },
+            {
+                "type": "middle",
+                "number": 40
+            },
+            {
+                "type": "aisle",
+                "number": 13
+            }
+        ],
+        [
+            {
+                "type": "aisle",
+                "number": 15
+            },
+            {
+                "type": "middle",
+                "number": 41
+            },
+            {
+                "type": "aisle",
+                "number": 16
+            }
+        ],
+        [
+            {
+                "type": "aisle",
+                "number": 17
+            },
+            {
+                "type": "middle",
+                "number": 42
+            },
+            {
+                "type": "aisle",
+                "number": 18
+            }
+        ],
+        [
+            {
+                "type": "aisle",
+                "number": 19
+            },
+            {
+                "type": "middle",
+                "number": 43
+            },
+            {
+                "type": "aisle",
+                "number": 20
+            }
+        ],
+        [
+            {
+                "type": "aisle",
+                "number": 21
+            },
+            {
+                "type": "middle",
+                "number": 44
+            },
+            {
+                "type": "aisle",
+                "number": 22
+            }
+        ],
+        [
+            {
+                "type": "aisle",
+                "number": 23
+            },
+            {
+                "type": "middle",
+                "number": 45
+            },
+            {
+                "type": "aisle",
+                "number": 24
+            }
+        ],
+        [
+            {
+                "type": "aisle",
+                "number": 25
+            },
+            {
+                "type": "middle",
+                "number": 46
+            },
+            {
+                "type": "aisle",
+                "number": 26
+            }
+        ],
+        [
+            {
+                "type": "aisle",
+                "number": 27
+            },
+            {
+                "type": "middle",
+                "number": 47
+            },
+            {
+                "type": "aisle",
+                "number": 28
+            }
+        ],
+        [
+            {
+                "type": "aisle",
+                "number": 29
+            },
+            {
+                "type": "middle",
+                "number": 48
+            },
+            {
+                "type": "aisle",
+                "number": 30
+            }
+        ]
+    ],
+    [
+        [
+            {
+                "type": "aisle",
+                "number": 8
+            },
+            {
+                "type": "window",
+                "number": 32
+            }
+        ],
+        [
+            {
+                "type": "aisle",
+                "number": 14
+            },
+            {
+                "type": "window",
+                "number": 34
+            }
+        ]
+    ]
+]
