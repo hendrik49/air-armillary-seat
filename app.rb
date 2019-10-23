@@ -13,6 +13,7 @@ end
 
 configure do
   set :views, 'app/views'
+  set :port, (ENV["PORT"] || 4567).to_i
 end
 
 Dir[File.join(File.dirname(__FILE__), 'app', '**', '*.rb')].each do |file|
