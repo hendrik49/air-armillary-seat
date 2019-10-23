@@ -2,6 +2,7 @@
 
 This application is made using [Sinatra Active Record Starter Kit](https://github.com/LaunchAcademy/sinatra-activerecord-starter-kit)
 
+This app made using Rubby. Rubby is good platform for create backend and easy to creating unit testing.
 
 ## Getting Started
 
