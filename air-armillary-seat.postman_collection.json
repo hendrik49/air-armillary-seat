@@ -1,0 +1,33 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Hendrik",
+		"_postman_id": "16529646-1182-a156-6484-a47ae0e1b22e",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:4567/seats",
+			"request": {
+				"url": "localhost:4567/seats",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"description": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"layout\" : [[2,3], [3,4],\n[3,2], [4,3]],\n\t\"total_passengers\" : 30\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
