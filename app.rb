@@ -25,4 +25,8 @@ post '/seats' do
   content_type :json
   payload = JSON.parse(request.body.read)
   SeatService.get(payload['layout'], payload['total_passengers']).to_json
+rescue ::Services::BadParameterError => e
+  halt 400, {error: e.message}.to_json
+rescue => _e
+  halt 500, {error: "Forbidden"}.to_json
 end
