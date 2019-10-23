@@ -1,5 +1,4 @@
 require 'sinatra'
-require 'sinatra/activerecord'
 require 'sinatra/reloader'
 require 'sinatra/flash'
 
@@ -20,7 +19,8 @@ Dir[File.join(File.dirname(__FILE__), 'app', '**', '*.rb')].each do |file|
   also_reload file
 end
 
-get '/' do
-  @title = "Hello World"
-  erb :index
+post '/seats' do
+  content_type :json
+  payload = JSON.parse(request.body.read)
+  SeatService.get(payload['layout'], payload['total_passengers'])
 end
